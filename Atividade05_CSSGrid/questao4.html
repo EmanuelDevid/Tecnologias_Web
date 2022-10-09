@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 4</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .a {
+            grid-column-start: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .h {
+            grid-row-start: 1;
+            grid-column-start: 1;
+            grid-column-end: 5;
+        }
+
+        .b {
+            grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 2;
+            grid-row-end: 5;
+        }
+
+        .c {
+            grid-column-start: 2;
+            grid-column-end: 4;
+            grid-row-start: 2;
+            grid-row-end: 4;
+        }
+
+        .f {
+            grid-column-start: 2;
+            grid-column-end: 5;
+            grid-row-start: 4;
+            grid-row-end: 5;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="grid">
+            <div class="bg-gray a">A</div>
+            <div class="bg-gray b">B</div>
+            <div class="c">C</div>
+            <div class="bg-blue f">F</div>
+            <div class="bg-blue h">H</div>
+        </div>
+    </div>
+</body>
+</html>

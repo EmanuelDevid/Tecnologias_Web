@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Questão 1</title>
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        .h {
+            grid-row-start: 1;
+        }
+
+        .f {
+            grid-row-start: 2;
+            grid-column-end: 5;
+        }
+
+        .c {
+            grid-column-end: 3;
+            grid-row-start: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="flex">
+        <div class="grid">
+            <div class="bg-gray">A</div>
+            <div class="bg-gray">B</div>
+            <div class="c">C</div>
+            <div class="bg-gray">D</div>
+            <div class="bg-gray">E</div>
+            <div class="bg-blue f">F</div>
+            <div class="bg-gray">G</div>
+            <div class="bg-blue h">H</div>
+        </div>
+    </div>
+</body>
+</html>

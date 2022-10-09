@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.questao1 {
+    width: 100vw;
+    height: 50vh;
+}
+
+@media (max-width: 320px){
+    .questao1{
+        background-color: black;
+        color: white;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 480px){
+    .questao1{
+        background-color: rgb(0, 140, 255);
+        color: white;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px){
+    .questao1{
+        background-color: rgb(69, 250, 62);
+        color: white;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 768px){
+    .questao1{
+        background-color: rgba(251, 255, 0, 0.932);
+        color: white;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 800px){
+    .questao1{
+        background-color: brown;
+        color: white;
+    }
+}
+
+@media (min-width: 801px) and (max-width: 1024px){
+    .questao1{
+        background-color: rgb(25, 0, 255);
+        color: white;
+    }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px){
+    .questao1{
+        background-color: rgb(0, 100, 17);
+        color: white;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px){
+    .questao1{
+        background-color: rgb(146, 0, 0);
+        color: white;
+    }
+}
