@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content-header {
+    border: 1px solid red;
+    margin: 0 auto;
+    color: gainsboro;
+}
